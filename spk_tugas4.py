@@ -192,13 +192,13 @@ class TOPSISProfessional:
     def get_status(self, rank):
         """Status berdasarkan ranking"""
         if rank == 1:
-            return "Main Character"
+            return "Main C"
         elif rank == 2:
-            return "Side Character"  
+            return "Side C"  
         elif rank == 3:
-            return "Supporting Role"
+            return "Support"
         else:
-            return "Background Character"
+            return "Bckground"
             
     def create_visualization(self):
         """Buat visualisasi yang profesional"""
