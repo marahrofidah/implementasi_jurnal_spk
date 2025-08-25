@@ -309,7 +309,7 @@ class TOPSISProfessional:
         
         plt.tight_layout()
         plt.show()
-        
+        # hm
     def generate_insights(self):
         """Generate insights dan rekomendasi"""
         print("Step 8: AI Insights & Recommendations")
